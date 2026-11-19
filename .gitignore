@@ -1,0 +1,6 @@
+node_modules
+.segments/
+render/qa_frames/
+*.log
+audio/output/*.wav
+output/*.mp4

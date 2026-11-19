@@ -1,0 +1,258 @@
+{
+  "duration": 30.0,
+  "fps": 30,
+  "totalFrames": 900,
+  "resolution": { "width": 1080, "height": 1920 },
+  "project": {
+    "id": "ibn-al-haytham-optics-3d",
+    "title": "Ibn al-Haytham: The Man Who Invented the Camera",
+    "scientist": "Ibn al-Haytham (Alhazen)",
+    "queueNumber": 3,
+    "duration": 30.0,
+    "fps": 30,
+    "totalFrames": 900,
+    "width": 1080,
+    "height": 1920
+  },
+  "audio": {
+    "masterPath": "audio/output/master_audio.wav",
+    "manifestPath": "audio/output/voice_manifest.json",
+    "srtPath": "output/subtitles.srt",
+    "bgmBpm": 108,
+    "bgmTheme": "Cairo Golden Age Oud, Qanun, Ney Flute & Darbuka Groove"
+  },
+  "world": {
+    "floorY": 0.0,
+    "benchPos": [0.0, 0.0, -0.35],
+    "benchTopY": 0.84,
+    "candlePos": [-0.46, 0.84, -0.35],
+    "partitionPos": [0.0, 0.84, -0.35],
+    "pinholePos": [0.0, 1.18, -0.35],
+    "screenPos": [0.46, 0.84, -0.35],
+    "alhazenPos": [-0.74, 0.0, 0.48],
+    "rivalPos": [0.74, 0.0, 0.48],
+    "archCenter": [0.0, 0.0, -2.55],
+    "minaretPos": [0.0, 0.0, -7.8]
+  },
+  "beats": [
+    {
+      "id": "beat1_hook",
+      "name": "Eye-Laser Myth Hook",
+      "start": 0.0,
+      "end": 4.5,
+      "shotType": "low_angle_push_in",
+      "camera": {
+        "posStart": [1.10, 1.38, 3.85],
+        "posEnd": [0.48, 1.44, 3.35],
+        "lookStart": [0.35, 1.24, 0.15],
+        "lookEnd": [0.24, 1.26, 0.10],
+        "fov": 44,
+        "roll": -0.02,
+        "swayAmp": 0.36
+      },
+      "fog": { "color": "#0D152C", "density": 0.042 },
+      "lighting": { "keyIntensity": 1.85, "hemiIntensity": 0.78, "rimIntensity": 1.40 },
+      "emotions": { "alhazen": "scheming", "rival": "focused" }
+    },
+    {
+      "id": "beat2_darkroom",
+      "name": "Dark Room Challenge",
+      "start": 4.5,
+      "end": 9.5,
+      "shotType": "medium_two_shot_ots",
+      "camera": {
+        "posStart": [-0.22, 1.56, 5.25],
+        "posEnd": [-0.08, 1.48, 5.05],
+        "lookStart": [0.0, 1.16, 0.12],
+        "lookEnd": [-0.04, 1.14, 0.12],
+        "fov": 45,
+        "roll": 0.0,
+        "swayAmp": 0.28
+      },
+      "fog": { "color": "#070B19", "density": 0.052 },
+      "lighting": { "keyIntensity": 1.25, "hemiIntensity": 0.55, "rimIntensity": 1.60 },
+      "emotions": { "alhazen": "curious", "rival": "panicked" }
+    },
+    {
+      "id": "beat3_pinhole_macro",
+      "name": "Pinhole Ray Crossing Macro",
+      "start": 9.5,
+      "end": 15.5,
+      "shotType": "macro_orbital_insert",
+      "camera": {
+        "posStart": [-0.36, 1.38, 2.68],
+        "posEnd": [0.36, 1.42, 2.72],
+        "lookStart": [0.0, 1.15, -0.35],
+        "lookEnd": [0.04, 1.15, -0.35],
+        "fov": 42,
+        "roll": 0.0,
+        "swayAmp": 0.14
+      },
+      "fog": { "color": "#091024", "density": 0.046 },
+      "lighting": { "keyIntensity": 1.45, "hemiIntensity": 0.60, "rimIntensity": 1.65 },
+      "emotions": { "alhazen": "focused", "rival": "curious" }
+    },
+    {
+      "id": "beat4_upside_down",
+      "name": "Upside-Down Comedic Twist",
+      "start": 15.5,
+      "end": 20.5,
+      "shotType": "dutch_tilt_reaction",
+      "camera": {
+        "posStart": [0.24, 1.46, 5.15],
+        "posEnd": [-0.14, 1.50, 5.20],
+        "lookStart": [0.06, 1.22, 0.10],
+        "lookEnd": [-0.04, 1.22, 0.10],
+        "fov": 45,
+        "roll": 0.075,
+        "swayAmp": 0.36
+      },
+      "fog": { "color": "#0E1730", "density": 0.044 },
+      "lighting": { "keyIntensity": 1.65, "hemiIntensity": 0.65, "rimIntensity": 1.60 },
+      "emotions": { "alhazen": "scheming", "rival": "shocked" }
+    },
+    {
+      "id": "beat5_breakthrough",
+      "name": "Camera Obscura Climax",
+      "start": 20.5,
+      "end": 25.5,
+      "shotType": "sweeping_crane_reveal",
+      "camera": {
+        "posStart": [-0.55, 1.54, 5.25],
+        "posEnd": [0.22, 1.90, 5.45],
+        "lookStart": [0.0, 1.28, -0.10],
+        "lookEnd": [0.0, 1.38, -0.18],
+        "fov": 45,
+        "roll": -0.02,
+        "swayAmp": 0.30
+      },
+      "fog": { "color": "#142040", "density": 0.036 },
+      "lighting": { "keyIntensity": 2.05, "hemiIntensity": 0.82, "rimIntensity": 1.85 },
+      "emotions": { "alhazen": "triumphant", "rival": "shocked" }
+    },
+    {
+      "id": "beat6_legacy",
+      "name": "Smartphone Legacy Hero Wide",
+      "start": 25.5,
+      "end": 30.0,
+      "shotType": "hero_wide_pullback",
+      "camera": {
+        "posStart": [0.06, 1.64, 5.42],
+        "posEnd": [0.0, 1.62, 5.72],
+        "lookStart": [0.0, 1.34, -0.12],
+        "lookEnd": [0.0, 1.32, -0.12],
+        "fov": 45,
+        "roll": 0.0,
+        "swayAmp": 0.20
+      },
+      "fog": { "color": "#162448", "density": 0.034 },
+      "lighting": { "keyIntensity": 1.98, "hemiIntensity": 0.80, "rimIntensity": 1.72 },
+      "emotions": { "alhazen": "triumphant", "rival": "curious" }
+    }
+  ],
+  "dialogue": [
+    {
+      "id": "L1",
+      "speaker": "narrator",
+      "voice": "bm_george",
+      "speed": 1.08,
+      "start": 0.20,
+      "maxEnd": 3.25,
+      "text": "For a thousand years, geniuses thought your eyes shoot lasers."
+    },
+    {
+      "id": "L2",
+      "speaker": "rival",
+      "voice": "am_michael",
+      "speed": 1.06,
+      "start": 3.35,
+      "maxEnd": 4.40,
+      "text": "Behold my vision beams!"
+    },
+    {
+      "id": "L3",
+      "speaker": "narrator",
+      "voice": "bm_george",
+      "speed": 1.06,
+      "start": 4.65,
+      "maxEnd": 7.35,
+      "text": "Then Cairo polymath Ibn al-Haytham stepped into total darkness."
+    },
+    {
+      "id": "L4",
+      "speaker": "alhazen",
+      "voice": "bm_lewis",
+      "speed": 1.04,
+      "start": 7.45,
+      "maxEnd": 9.40,
+      "text": "If eyes shoot light, why can't you see now?"
+    },
+    {
+      "id": "L5",
+      "speaker": "narrator",
+      "voice": "bm_george",
+      "speed": 1.05,
+      "start": 9.70,
+      "maxEnd": 15.20,
+      "text": "Through one tiny pinhole, candle rays raced straight, crossed over, and projected the flame..."
+    },
+    {
+      "id": "L6",
+      "speaker": "rival",
+      "voice": "am_michael",
+      "speed": 1.12,
+      "start": 15.55,
+      "maxEnd": 17.35,
+      "text": "Wait—why is it upside down?!"
+    },
+    {
+      "id": "L7",
+      "speaker": "alhazen",
+      "voice": "bm_lewis",
+      "speed": 1.05,
+      "start": 17.50,
+      "maxEnd": 20.25,
+      "text": "Because light enters your eye—it never shoots out!"
+    },
+    {
+      "id": "L8",
+      "speaker": "narrator",
+      "voice": "bm_george",
+      "speed": 1.05,
+      "start": 20.60,
+      "maxEnd": 25.10,
+      "text": "He built the Camera Obscura—and unlocked human vision."
+    },
+    {
+      "id": "L9",
+      "speaker": "narrator",
+      "voice": "bm_george",
+      "speed": 1.04,
+      "start": 25.55,
+      "maxEnd": 29.45,
+      "text": "Every phone camera today? Still inside his dark room."
+    }
+  ],
+  "sfx": [
+    { "t": 0.12, "type": "laser_zap", "intensity": 0.90, "shake": 0.08, "flash": 0.20 },
+    { "t": 1.85, "type": "laser_zap", "intensity": 0.72, "shake": 0.05, "flash": 0.12 },
+    { "t": 3.35, "type": "laser_hum", "intensity": 0.85, "shake": 0.06, "flash": 0.16 },
+    { "t": 4.48, "type": "whip_whoosh", "intensity": 0.82, "shake": 0.04, "flash": 0.0 },
+    { "t": 4.75, "type": "shutter_slam", "intensity": 0.95, "shake": 0.11, "flash": 0.0 },
+    { "t": 5.30, "type": "power_down", "intensity": 0.78, "shake": 0.03, "flash": 0.0 },
+    { "t": 6.80, "type": "footstep_stumble", "intensity": 0.62, "shake": 0.04, "flash": 0.0 },
+    { "t": 9.48, "type": "whip_whoosh", "intensity": 0.85, "shake": 0.04, "flash": 0.0 },
+    { "t": 10.10, "type": "match_ignite", "intensity": 0.76, "shake": 0.02, "flash": 0.10 },
+    { "t": 11.40, "type": "pinhole_click", "intensity": 0.72, "shake": 0.02, "flash": 0.0 },
+    { "t": 12.20, "type": "light_beam_shimmer", "intensity": 0.86, "shake": 0.0, "flash": 0.14 },
+    { "t": 14.30, "type": "projection_bloom", "intensity": 0.84, "shake": 0.02, "flash": 0.16 },
+    { "t": 15.48, "type": "whip_whoosh", "intensity": 0.85, "shake": 0.05, "flash": 0.0 },
+    { "t": 15.65, "type": "comic_boing", "intensity": 0.82, "shake": 0.07, "flash": 0.0 },
+    { "t": 17.55, "type": "chime_insight", "intensity": 0.78, "shake": 0.0, "flash": 0.08 },
+    { "t": 20.48, "type": "whip_whoosh", "intensity": 0.90, "shake": 0.05, "flash": 0.0 },
+    { "t": 20.85, "type": "eureka_swell", "intensity": 1.00, "shake": 0.09, "flash": 0.28 },
+    { "t": 23.20, "type": "camera_shutter_modern", "intensity": 0.92, "shake": 0.05, "flash": 0.22 },
+    { "t": 25.48, "type": "whip_whoosh", "intensity": 0.80, "shake": 0.03, "flash": 0.0 },
+    { "t": 27.60, "type": "camera_shutter_modern", "intensity": 0.88, "shake": 0.04, "flash": 0.18 }
+  ]
+}
